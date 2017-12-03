@@ -5,14 +5,14 @@ const { Header, Content, Footer } = Layout;
 
 
 class App extends React.Component {
+
     render(){
         return(
             <Layout className="layout">
                 <div className="logo">中国诗词编年史</div>
-                <Header>
-                   
+                <Header>                   
                     <Menu
-                        theme="dark"
+                        theme="light"
                         mode="horizontal"
                         defaultSelectedKeys={['1']}
                         style={{ lineHeight: '64px' }}
