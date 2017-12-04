@@ -62,12 +62,8 @@ if(isDev){
 	  res.render('error');
 	});
 }
- app.listen(3000,function(){
-        console.log("runing")
- })
-
 
 // uncomment after placing your favicon in /public
 //app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
 
-// module.exports = app;
+module.exports = app;

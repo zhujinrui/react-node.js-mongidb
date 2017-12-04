@@ -17,7 +17,7 @@ class App extends React.Component {
                         defaultSelectedKeys={['1']}
                         style={{ lineHeight: '64px' }}
                     >
-                        <Menu.Item key="1">首页</Menu.Item>
+                        <Menu.Item key="1">首页asddadas</Menu.Item>
                         <Menu.Item key="2">诗人</Menu.Item>
                         <Menu.Item key="3">查询统计</Menu.Item>
                         <Menu.Item key="4">路线推荐</Menu.Item>
